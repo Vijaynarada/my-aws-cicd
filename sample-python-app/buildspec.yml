@@ -9,7 +9,7 @@ env:
 phases:
   install:
     commands:
-      - echo "Installing python version 3.11"
+      - echo "Installing Runtime python version 3.11"
     runtime-versions:
       python: 3.11
   pre_build:
