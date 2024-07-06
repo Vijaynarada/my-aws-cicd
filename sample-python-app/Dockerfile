@@ -20,6 +20,8 @@ COPY . .
 # ENV MY_ENV_VAR=value
 
 # Run the Flask application
-CMD ["python", "app.py", "runserver", "0.0.0.0:5000"]
+#CMD ["python", "app.py", "runserver", "0.0.0.0:5000"]
+CMD flask run -h 0.0.0.0 -p 5000
+
 
 
